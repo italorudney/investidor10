@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/form.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <strong>Inserir Noticias</strong>
+        </header>
+    <form id="formNoticias">
+        <ul class="flex-outer">
+            <li>
+                <label for="titulo">Titulo da Noticia:</label>
+                <input type="text" id="titulo" required name="titulo" placeholder="Insira o titulo">
+            </li>
+            <li>
+                <label for="subTitulo">SubTitulo da Noticia:</label>
+                <input type="text" id="subTitulo" required name="subTitulo" placeholder="Insira o subtitulo">
+            </li>
+            <li>
+                <label for="categoria">Categoria da Noticia:</label>
+                <select id="cat_id" required name="cat_id">
+
+                </select>
+            </li>
+            <li>
+                <label for="descricao">Noticia:</label>
+                <textarea rows="6" id="descricao" required name="descricao" placeholder="Descreva a Noticia"></textarea>
+            </li>
+   
+            <li>
+                <button type="submit">Enviar</button>
+            </li>
+        </ul>
+    </form>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="assets/js/main.js"></script>
+    <script src="assets/js/form.js"></script>
+</body>
+
+</html>

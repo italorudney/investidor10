@@ -1,0 +1,127 @@
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #cfcfcf;
+    font: normal 18px/1.5 "Fira Sans", "Helvetica Neue", sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    width: 100%;
+    
+}
+.noticias{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;   
+    flex-wrap: wrap; 
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+    font-size: 35px; 
+    width: 100%;
+    background-color: #4c89e3;
+    color: #FFF;
+    margin: 0 10px;
+}
+
+p{
+    display: flex;
+}
+
+.posts{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;  
+    max-width: 400px;
+    background-color: #FFF;
+    border-radius: 7px;
+    border-width: 1px;
+    margin: 8px;
+    padding: 10px;
+    flex-grow: 1;
+    height: max-content;
+
+}
+
+.titulo{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.subtitulo{
+    margin-bottom: 10px;
+    margin-top: -5px;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.texto{
+    margin-bottom: 2px;
+}
+
+.botao{
+    height: 40px;
+    background: none;
+    border-radius: 5px;
+    color: #4c89e3;
+    border: 2px solid #4c89e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.5s;
+    cursor: pointer;
+    width: 100%;
+}
+
+.botao:hover{
+    background-color: #4c89e3;
+    color: #FFF;
+}
+
+.busca{
+    margin-left: 80px;
+    border-radius: 5px;
+    border: 2px solid #4c89e3;
+    height: 25px;
+    width: 15%;
+}
+
+.categoria{
+    font-size: 12px;
+}
