@@ -125,3 +125,24 @@ p{
 .categoria{
     font-size: 12px;
 }
+.criar{
+    height: 40px;
+    background: none;
+    border-radius: 5px;
+    color: #fff;
+    border: 2px solid #4c89e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.5s;
+    cursor: pointer;
+    background-color: #4c89e3;
+    
+}
+
+.criar:hover{
+    background-color: #FFF;
+    color: #4c89e3;
+}
